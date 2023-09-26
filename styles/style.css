@@ -1,0 +1,22 @@
+
+/* CSS rule syntax
+selector {
+    property: value;
+} */
+
+h3 {
+    color: green;
+}
+
+/* ul {
+    list-style: none;
+    list-style: square;
+} */
+li {
+    list-style-type: circle;
+}
+
+/* descendent combinator */
+    li li {
+        list-style-type: circle;
+    }
